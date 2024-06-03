@@ -1,0 +1,20 @@
+
+		 public class AssociationEx {
+
+	public static void main(String[] args) {
+		 Employee emp=new Employee();
+		 emp.setName("Ashish Patel");
+		  Mobile nu=new Mobile();
+		  nu.setMobileno(8273827);
+		  Mobile nu1=new Mobile();
+		  nu1.setMobileno(82738276);
+		   
+		   List<Mobile>numlist=new ArrayList<Mobile>();
+		   numlist.add(nu);
+		   numlist.add(nu1);
+		    emp.setMobile(numlist);  
+		   System.out.println(  emp.getName()+""+ emp.getMobile());
+		    
+	}
+
+}

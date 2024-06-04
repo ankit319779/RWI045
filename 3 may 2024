@@ -1,5 +1,4 @@
-
-		 public class AssociationEx {
+public class AssociationEx {
 
 	public static void main(String[] args) {
 		 Employee emp=new Employee();

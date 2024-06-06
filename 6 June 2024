@@ -1,0 +1,17 @@
+StringBuilder Method:
+
+package ankit.com;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		StringBuilder sb =  new StringBuilder("Tony");
+		System.out.println(sb);
+		
+		System.out.println(sb.charAt(0));
+		sb.setCharAt(0,'p');
+		System.out.println(sb);
+
+	}
+
+}

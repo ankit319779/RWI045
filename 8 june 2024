@@ -1,0 +1,13 @@
+RemoveSpecialCharacter in a String:
+package ankit.com;
+
+public class RemoveSpecialChars {
+
+	public static void main(String[] args) {
+		String str = "#@%An*&k%^!it";
+		String plainStr = str.replaceAll("[^a-zA-Z0-9]","");
+		System.out.println(plainStr);
+
+	}
+
+}
